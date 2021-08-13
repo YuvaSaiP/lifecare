@@ -1,10 +1,10 @@
 import styled from "styled-components";
 import React from "react";
 import "./hello.css";
+import { Link } from "react-router-dom";
 export default function hello() {
   return (
     <div>
-      <Header>Hospitals in Tirupati</Header>
       <CategoryWrapper>
         <EachItemContainer
           style={{
@@ -16,7 +16,9 @@ export default function hello() {
           }}
         >
           <EachItemDiv>
-            <Button>SVIMS Tirupati</Button>
+            <Link to="/details">
+              <Button>SVIMS Tirupati</Button>
+            </Link>
           </EachItemDiv>
         </EachItemContainer>
 

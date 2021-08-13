@@ -4,7 +4,7 @@ import { useSpring, animated, config } from "react-spring";
 import Brand from "./Brand";
 import BurgerMenu from "./BurgerMenu";
 import CollapseMenu from "./CollapseMenu";
-
+import { Link } from "react-router-dom";
 const Navbar = (props) => {
   const barAnimation = useSpring({
     from: { transform: "translate3d(0, -10rem, 0)" },
@@ -22,14 +22,23 @@ const Navbar = (props) => {
     <>
       <NavBar style={barAnimation}>
         <FlexContainer>
-          <Brand />
+          <Link to="/">
+            <Brand />
+          </Link>
           <NavLinks style={linkAnimation}>
-            <a href="/">Home</a>
-            <a href="/">ABout us</a>
+            <Link to="/">Home</Link>
+            <Link to="/">ABout us</Link>
             <CallButton style={{ color: "white" }} className="call-btn">
-              Log in  
+              Log in
             </CallButton>
-            <CallButton style={{ color: "#003A52", background:"white", border:"2px solid #003A52" }} className="call-btn">
+            <CallButton
+              style={{
+                color: "#003A52",
+                background: "white",
+                border: "2px solid #003A52",
+              }}
+              className="call-btn"
+            >
               Signup
             </CallButton>
           </NavLinks>
@@ -57,7 +66,7 @@ const NavBar = styled(animated.nav)`
   top: 0;
   left: 0;
   background: #ffffff;
-  z-index: 1;
+  z-index: 999;
   font-size: 1.4rem;
 `;
 

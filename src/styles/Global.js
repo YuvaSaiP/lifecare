@@ -29,9 +29,11 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;  
     width:100%;
-    ${"" /* background:#F5F5F5; */}
+    
     background:#F6F6F9;
     color:#003A52;
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='238' height='238' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' fill-opacity='0.36' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
   }
   .site-wrapper{
     width:90%;

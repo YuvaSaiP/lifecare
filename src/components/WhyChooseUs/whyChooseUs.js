@@ -4,7 +4,7 @@ import "../Products/hello.css";
 export default function whyChooseUs() {
   return (
     <div>
-      <Header>Best Mobile Repair Service</Header>
+      <Header>Quick Online Medication</Header>
       <ContainerWrapper>
         <EachItem>
           <IconWrapper>
@@ -14,11 +14,11 @@ export default function whyChooseUs() {
               width="60px"
             />
           </IconWrapper>
-          <HeadingText>Original & Quality Parts</HeadingText>
+          <HeadingText>Emergency Fast Service</HeadingText>
           <Description>
-            We have our own trained, professional & experienced technician.
-            Which make you comfortable to hand over your gadget to our
-            technician.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+            perferendis molestiae totam aperiam a, doloribus atque. Adipisci rem
+            quos distinctio!
           </Description>
         </EachItem>
         <EachItem>
@@ -31,9 +31,9 @@ export default function whyChooseUs() {
           </IconWrapper>
           <HeadingText>Trusted Service</HeadingText>
           <Description>
-            It provides opportunities for everyone to enjoy lowest and
-            affordable price which helps save your money upto 50%. Hurry Up!
-            Book Now
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+            perferendis molestiae totam aperiam a, doloribus atque. Adipisci rem
+            quos distinctio!
           </Description>
         </EachItem>
         <EachItem>
@@ -42,13 +42,14 @@ export default function whyChooseUs() {
               src="https://www.flaticon.com/svg/static/icons/svg/3604/3604032.svg"
               alt=""
               width="70px"
+              
             />
           </IconWrapper>
-          <HeadingText>Lowest & Affordable Pricing</HeadingText>
+          <HeadingText>Affordable Pricing</HeadingText>
           <Description>
-            We have our own trained, professional & experienced technician.
-            Which make you comfortable to hand over your gadget to our
-            technician.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+            perferendis molestiae totam aperiam a, doloribus atque. Adipisci rem
+            quos distinctio!
           </Description>
         </EachItem>
       </ContainerWrapper>

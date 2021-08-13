@@ -17,7 +17,7 @@ const CopyRights = styled.div`
   border-top: 1px solid #ccd6f62f;
   width: 100%;
   color: #fff;
-  padding: 16px 0px;
+  padding: 14px 0px 2px 0px;
   background: #33647F;
   font-size: 1rem;
   text-align: center;
