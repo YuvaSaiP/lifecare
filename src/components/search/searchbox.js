@@ -1,5 +1,5 @@
 import React from "react";
-import { InputGroup, FormControl, Button, Dropdown } from "react-bootstrap";
+import { InputGroup, FormControl, Button } from "react-bootstrap";
 import styled from "styled-components";
 
 function searchbox({title}) {
@@ -16,7 +16,6 @@ function searchbox({title}) {
             <img
               src="https://image.flaticon.com/icons/png/512/1296/1296902.png"
               alt="search icon"
-              srcset=""
               width="20"
             />
           </Button>
@@ -32,7 +31,6 @@ function searchbox({title}) {
               
               src="https://image.flaticon.com/icons/png/512/5376/5376211.png"
               alt="location icon"
-              srcset=""
               width="22"
             />
           </Button>

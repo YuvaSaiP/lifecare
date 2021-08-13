@@ -42,7 +42,9 @@ export default function hello() {
           }}
         >
           <EachItemDiv>
-            <Button>RUYA Tirupati</Button>
+            <Link to="/details">
+              <Button>RUYA Tirupati</Button>
+            </Link>
           </EachItemDiv>
         </EachItemContainer>
 
@@ -126,16 +128,4 @@ const Button = styled.button`
   font-weight: bold;
   text-transform: uppercase;
   color: white;
-`;
-const Header = styled.h2`
-  display: flex;
-  font-size: 1.8rem;
-  text-align: center;
-  margin: 50px 0px 18px 0px;
-  font-family: "Poppins", sans-serif;
-  justify-content: center;
-  @media screen and (max-width: 480px) {
-    font-size: 1.4rem;
-    margin: 25px 0px 12px 0px;
-  }
 `;

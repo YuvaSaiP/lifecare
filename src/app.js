@@ -7,7 +7,7 @@ import Footer from "./components/footer/footer";
 import WhyChooseUs from "./components/WhyChooseUs/whyChooseUs";
 import SearchItems from "./components/search/searchbox";
 import Hospdetails from "./components/hospdetails/hospdetails";
-import { Switch, Route, useLocation } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 class App extends Component {
