@@ -3,9 +3,11 @@ import Navbar from "./components/navbar/Navbar";
 import GlobalStyle from "./styles/Global";
 import Issues from "./components/WhyChooseUs/issuesWeSolve";
 import ProductsCategory from "./components/Products/productsCategories";
+import ProductsCategory2 from "./components/Products/bloodBankProducts";
 import Footer from "./components/footer/footer";
 import WhyChooseUs from "./components/WhyChooseUs/whyChooseUs";
 import SearchItems from "./components/search/searchbox";
+import SearchItems2 from "./components/search/searchBloodBanks";
 import Hospdetails from "./components/hospdetails/hospdetails";
 import { Switch, Route } from "react-router-dom";
 
@@ -33,6 +35,16 @@ class App extends Component {
               <SearchItems title="Hospitals in Tirupati" />
               <div style={{ margin: "22px" }}></div>
               <ProductsCategory />
+              <div style={{ margin: "30px" }}></div>
+              <Issues />
+              <div style={{ margin: "30px" }}></div>
+              <WhyChooseUs />
+              <div style={{ marginTop: "80px" }}></div>
+            </Route>
+            <Route path="/bloodBanks" exact>
+              <SearchItems2 title="BloodBanks in Tirupati" />
+              <div style={{ margin: "22px" }}></div>
+              <ProductsCategory2 />
               <div style={{ margin: "30px" }}></div>
               <Issues />
               <div style={{ margin: "30px" }}></div>

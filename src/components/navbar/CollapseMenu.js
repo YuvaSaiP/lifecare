@@ -25,10 +25,17 @@ const CollapseMenu = (props) => {
             </Link>
           </li>
           <li>
+            <Link to="/bloodBanks" onClick={props.handleNavbar}>
+              Blood Bank
+            </Link>
+          </li>
+          <li>
             <a href="/" onClick={props.handleNavbar}>
               About Us
             </a>
           </li>
+          <div style={{ margin: "10px" }}></div>
+
           <CallButton style={{ color: "white" }} className="call-btn">
             Sign Up
           </CallButton>

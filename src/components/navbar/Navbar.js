@@ -27,6 +27,7 @@ const Navbar = (props) => {
           </Link>
           <NavLinks style={linkAnimation}>
             <Link to="/">Home</Link>
+            <Link to="/bloodBanks">Blood Bank</Link>
             <Link to="/">ABout us</Link>
             <CallButton style={{ color: "white" }} className="call-btn">
               Log in
